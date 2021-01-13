@@ -64,7 +64,7 @@ namespace CSharpPractice2NonPrimitiveTypes
             Increment(number);//diff value than other number below. diff places in memeory bec value type
 
             var person = new Person() {Age = 20};
-            MakeOld(person);// because new spot in memory can change value 
+            MakeOld(person);// because new spot in memory can change value .
         }
 
         public static void Increment(int number)
